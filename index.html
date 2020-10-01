@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tasker - The Task Managing App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="black">
+        <div id="text">
+            <span class="ltr">L</span>
+            <span class="ltr">O</span>
+            <span class="ltr">A</span>
+            <span class="ltr">D</span>
+            <span class="ltr">I</span>
+            <span class="ltr">N</span>
+            <span class="ltr">G</span>
+        </div>
+    </div>
+
+    <div id="model">
+        <span id="cross"><i class="ri-close-line"></i></span>
+        <input type="text" id="taskName" placeholder="Task Name" value="" >
+        <textarea id="taskDetails" placeholder="Enter Task Details" value="" ></textarea>
+        <button id="taskDone">Save The Task</button> 
+    </div>
+
+  <div id="topScreen">
+        <div class="container">
+            <h2><span class="bold">Minimal Tasker</span> for Minimal Personalities</h2>
+            <small>The Task Manager for remembering your tasks and making them happen with helping you burden less about your stuff, this application works without database and uses your system memory resource in order to remember your data.</small>
+            <div id="actions">
+                <div id="add" class="actnIcn">
+                    <span class="ring">
+                        <i class="ri-add-line"></i>
+                    </span>
+                    <h6>Add A Task</h6>
+                </div>
+                <div id="deleteAll" class="actnIcn">
+                    <span class="ring">
+                        <i class="ri-delete-bin-6-line"></i>
+                    </span>
+                    <h6>Remove All</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="resultScreen">
+        <h2>Your Saved Tasks</h2>
+        <div class="taskContainer">
+        </div>
+    </div>
+
+    <script src="jQuery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>  
+    <script src="abc.js"></script>
+    <script src="scr.js"></script>
+   
+</body>
+</html>
